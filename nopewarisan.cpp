@@ -9,7 +9,7 @@ public:
         cout << "Hallo saya function dari base class";
     }
 };
-class baseClass1 final
+class baseClass1
 {
 public:
     virtual void perkenalan()
@@ -20,7 +20,7 @@ public:
 class derivedClass : public baseClass1
 {
 public:
-    virtual void perkenalan()
+    void perkenalan()
     {
         cout << "Hallo saya function dari derived class";
     }
