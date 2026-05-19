@@ -17,11 +17,3 @@ public:
         cout << "Hallo saya function dari base class";
     }
 };
-class derivedClass : public baseClass1
-{
-public:
-    void perkenalan()
-    {
-        cout << "Hallo saya function dari derived class";
-    }
-};
